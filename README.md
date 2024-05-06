@@ -1,4 +1,4 @@
-```
+
 # Recurrent Neural Network (RNN) Implementation in C++
 
 This C++ code implements a recurrent neural network (RNN) for training and processing sequential data. The RNN architecture consists of feedforward and backpropagation algorithms for training, along with data structures to represent network layers and activations.
@@ -47,7 +47,7 @@ The provided server implementation acts as an interface between a frontend appli
 
 ### Example Usage
 
-```javascript
+javascript
 // Code snippet for setting up the server
 const express = require('express');
 const bodyParser = require('body-parser');
