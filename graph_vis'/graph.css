@@ -1,0 +1,157 @@
+.content-object {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  height: 100%; /* Fill the height of the parent */
+  align-self: stretch;
+  justify-content: stretch;
+}
+
+.content-object.dark {
+  color: white;
+}
+
+.content-object.light {
+  color: brown;
+}
+
+.user-interface {
+  margin-left:10px;
+  position: relative;
+  display:flex;
+  min-width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction:column;
+  overflow: hidden;
+}
+
+.user-interface.dark {
+  border-right-color:#252527;
+}
+.user-interface.light {
+  border-right-color:#f3f3f3;
+}
+
+.user-interface > * {
+  flex:1;
+  margin-top: 0; /* Remove top margin */
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.neural-network-frame {
+  display: flex;
+  flex-direction:column;
+  padding-top: 10px;
+  min-width: 50%;
+
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex: 1;
+  align-self: stretch;
+  justify-content: stretch;
+}
+
+.neural-network-frame.dark {
+  border-left: 2px solid #252527;
+}
+
+.neural-network-frame.light {
+  border-left: 2px solid #f3f3f3;
+}
+
+.neural-network-visualization {
+  scale: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+  
+  .neural-network-visualization .link {
+    stroke-width: 2;
+  }
+
+  .neural-network-visualization.dark-mode .link {
+    stroke: white;
+  }
+
+  .neural-network-visualization.light-mode .link {
+    stroke: brown;
+  }
+  
+  .neural-network-visualization .node circle {
+    fill: rgba(0,0,0,0);
+    stroke-width: 2;
+  }
+
+  .neural-network-visualization.light-mode .node circle {
+    stroke: brown;
+  }
+  .neural-network-visualization.dark-mode .node circle {
+    stroke: white;
+  }
+
+  .neural-network-visualization .node text {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+  }
+  .neural-network-visualization.light-mode .node text {
+    fill: brown;
+  }
+  .neural-network-visualization.dark-mode .node text {
+    fill: white;
+  }
+  /* Hover effect for nodes */
+  .neural-network-visualization .node:hover circle {
+    fill: #2196F3 ;
+    cursor: pointer;
+  }
+  
+  /* Style for the container */
+  .neural-network-visualization .div {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .neural-network-visualization .h1 {
+    color: #333;
+  }
+
+  .top-row {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .action-buttons {
+    margin-top:10px;
+    margin-left:20px;
+    padding-inline:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    overflow: hidden;
+  }
+
+  .ui-row {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .sliders-section {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .middle-maker {
+    flex: 1;
+  }

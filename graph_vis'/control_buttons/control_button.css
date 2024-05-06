@@ -1,0 +1,61 @@
+.control-button {
+    border: 2px solid;
+    background-color: rgba(0,0,0,0);
+    border-radius: 2px;
+    width: 100%;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.control-button.disabled {
+    opacity: 0.5;
+}
+.control-button.enabled {
+    opacity: 1;
+    cursor:pointer;
+}
+
+.control-button h1 {
+    font-size:20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+.control-button a {
+    font-size: 12px;
+    margin-bottom:10px;
+    padding-bottom:10px;
+}
+
+.control-button.dark {
+    border-color:white;
+    color: white;
+}
+.control-button.light {
+    border-color:brown;
+    color: brown;
+}
+
+.control-button.enabled.light:hover {
+    background-color: brown;
+    color: white;
+
+}
+
+.control-button.enabled.dark:hover {
+    background-color: white;
+    color: #1b1b1b
+}
+
+.control-button:c {
+    background-color: brown;
+    color: white;
+
+}

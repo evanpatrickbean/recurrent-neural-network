@@ -1,0 +1,32 @@
+.ticker-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:25px;
+    height: 25px;
+    border-radius:50%;
+    border: 2px solid;
+    background-color: rgba(0,0,0,0);
+    margin-inline: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.ticker-btn.dark{
+    border-color: white;
+    background-color: #1b1b1b;
+    color: white;
+}
+.ticker-btn.off {
+    opacity:50%;
+}
+.ticker-btn.light {
+    border-color: brown;
+    color: brown;
+}
+
+
+.ticker-btn.on:hover {
+ background-color: white;
+ color: #1b1b1b;
+}

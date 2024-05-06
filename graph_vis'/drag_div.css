@@ -1,0 +1,22 @@
+.draggable-container {
+    position: relative;
+    width: 300px; /* Initial width */
+    min-width: 100px; /* Minimum width */
+    max-width: 800px; /* Maximum width */
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  
+  .handle {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 10px;
+    height: 100%;
+    cursor: col-resize;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    padding: 10px;
+  }
