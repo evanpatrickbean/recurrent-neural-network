@@ -99,7 +99,6 @@ export default NeuralNetworkVisualization;
 - Start the backend server by running the Node.js server file (`server.js`) using `node server.js`.
 - Run the React frontend application using `npm start` or `yarn start`.
 - Access the application in your web browser at `http://localhost:3000`.
-```
 
 ![image](https://github.com/evanpatrickbean/recurrent-neural-network/assets/111098769/920ad92a-0b2f-4bfc-b7e7-a1e8c6cf8ae2)
-
+```
